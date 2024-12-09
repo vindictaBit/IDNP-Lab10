@@ -22,7 +22,7 @@ public class AudioPlayerService extends Service {
     public void onCreate() {
         super.onCreate();
         createNotificationChannel();
-        mediaPlayer = MediaPlayer.create(this, R.raw.audio_sample); // Reemplaza con tu archivo de audio
+        mediaPlayer = MediaPlayer.create(this, R.raw.audio_sample);
         mediaPlayer.setLooping(false);
     }
 
